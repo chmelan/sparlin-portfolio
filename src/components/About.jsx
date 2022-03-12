@@ -74,7 +74,10 @@ const visualizationSkills = [
 function About() {
   return (
     // eslint-disable-next-line tailwindcss/no-contradicting-classname
-    <section className="flex justify-center items-center h-screen text-white  bg-rose-600 bg-[url('src/public/Website_Pattern_High_Quality-01.png')]	">
+    <section
+      className="flex justify-center items-center min-h-screen text-white  bg-rose-600 bg-[url('src/public/Website_Pattern_High_Quality-01.png')]	"
+      id="about"
+    >
       <div className="py-32 px-4 w-full max-w-screen-xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16 lg:items-center">
           <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">

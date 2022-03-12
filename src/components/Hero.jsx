@@ -1,10 +1,11 @@
 import Button from "./Button";
 import SecondaryButton from "./SecondaryButton";
+
 function Hero() {
   return (
     // eslint-disable-next-line tailwindcss/no-contradicting-classname
     <section className="relative ">
-      <div className="relative px-4 pt-16 pb-64  mx-auto max-w-screen-xl lg:flex lg:items-center lg:h-screen">
+      <div className="relative px-4 pt-32 pb-64  mx-auto max-w-screen-xl lg:flex lg:items-center lg:min-h-screen">
         <div className="max-w-xl text-center sm:text-left">
           <h1 className="text-3xl font-semibold sm:text-5xl ">
             I&apos;m a Graphic Designer turned

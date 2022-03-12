@@ -7,7 +7,7 @@ import TopNav from "./TopNav";
 
 function App() {
   return (
-    <div className="bg-rose-50">
+    <div className="bg-rose-50 scroll-smooth">
       <TopNav />
       <Hero />
       <Bumper url="bg-[url('src/public/bumper_bars_bg.svg')]" />
@@ -15,7 +15,6 @@ function App() {
       <Bumper url="bg-[url('src/public/bumper_bars_bg_reversed.svg')]" />
       <Projects />
       <Footer />
-      HELLo
     </div>
   );
 }
