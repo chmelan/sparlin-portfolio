@@ -6,6 +6,10 @@ module.exports = {
   },
   variants: {
     extend: {},
+    fontFamily: {
+      sans: ["Raleway", "sans-serif"],
+      mono: ["Quicksand", "sans-serif"],
+    },
   },
   plugins: [],
 };
