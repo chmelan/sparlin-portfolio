@@ -78,16 +78,16 @@ function About() {
       className="flex justify-center items-center min-h-screen text-white  bg-rose-600 bg-[url('src/public/Website_Pattern_High_Quality-01.png')]	"
       id="about"
     >
-      <div className="py-32 px-4 w-full max-w-screen-xl sm:px-6 lg:px-8">
+      <div className="py-16 md:py-32 px-4 w-full max-w-screen-xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16 lg:items-center">
-          <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
-            <h2 className="text-3xl sm:text-4xl">
+          <div className="mx-auto max-w-lg lg:mx-0 text-left md:text-center">
+            <h2 className="text-3xl md:text-4xl ">
               There is a{" "}
               <span className="underline decoration-rose-300">magical</span>{" "}
               place between data and design
             </h2>
 
-            <p className="mt-4 font-mono text-gray-200">
+            <p className="mt-4 font-mono text-white ">
               I&apos;ve been a for-hire graphic designer and social media
               consultant but decided to steer my career path in a different
               direction in 2021 (because living with a global pandemic
@@ -96,7 +96,7 @@ function About() {
               technical and analytics skills each and every day. There&apos;s a
               lot that I am still learning, and I hope that never changes.
             </p>
-            <p className="my-4 font-mono text-gray-200">
+            <p className="my-4 font-mono text-white ">
               In my free time (what&apos;s that again?), you can find me
               neck-deep in a book, grumbling my way through the NYTimes daily
               crossword, slaying beasts with my Dungeons &amp; Dragons party,
