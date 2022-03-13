@@ -4,14 +4,12 @@ import { SiTableau } from "react-icons/si";
 function Footer() {
   return (
     <footer className="text-white bg-rose-600" id="contact">
-      <div className="px-4 pt-8 pb-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+      <div className="px-4 pt-8 md:pt-32 pb-4 mx-auto max-w-screen-xl lg:px-8">
+        <div className="max-w-screen-xl py-8 mx-auto lg:px-8">
           <div className="max-w-xl mx-auto md:text-center text-left">
-            <h1 className="text-3xl font-semibold md:text-4xl">
-              Let's work together!
-            </h1>
+            <h2 className="text-5xl font-semibold ">Let's work together!</h2>
 
-            <p className="mt-4 text-neutral-200 font-mono">
+            <p className="mt-4 text-neutral-100 font-mono">
               Interested in collaborating? I'd love to talk more. Feel free to
               contact me through LinkedIn or the form below, and I'll be in
               touch shortly.
@@ -21,7 +19,7 @@ function Footer() {
           <form
             action=""
             method="POST"
-            className="max-w-md mx-auto mt-8 mb-0 space-y-4"
+            className="max-w-xl mx-auto mt-8 mb-0 space-y-4"
           >
             <input type="hidden" name="form-name" value="contact" />
             <div>
@@ -30,15 +28,15 @@ function Footer() {
               </label>
 
               <div className="group block relative text-black">
-                <span className="absolute inset-0 bg-gray-600 rounded-xl translate-x-1 translate-y-1"></span>
-                <div className="flex relative   h-full bg-white hover:bg-green-50 rounded-xl border-2 border-gray-600 ">
+                <span className="absolute inset-0 bg-neutral-600 rounded-xl translate-x-1 translate-y-1"></span>
+                <div className="flex relative   h-full bg-white hover:bg-green-50 rounded-xl border-2 border-neutral-600 ">
                   <input
                     id="name"
                     name="name"
                     type="text"
                     placeholder="Name"
                     autoComplete="name"
-                    className="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm "
+                    className="w-full p-4 pr-12 font-mono border-neutral-200 rounded-lg shadow-sm "
                   />
                 </div>
               </div>
@@ -50,15 +48,15 @@ function Footer() {
               </label>
 
               <div className="group block relative text-black">
-                <span className="absolute inset-0 bg-gray-600 rounded-xl translate-x-1 translate-y-1"></span>
-                <div className="flex relative   h-full bg-white hover:bg-green-50 rounded-xl border-2 border-gray-600 ">
+                <span className="absolute inset-0 bg-neutral-600 rounded-xl translate-x-1 translate-y-1"></span>
+                <div className="flex relative   h-full bg-white hover:bg-green-50 rounded-xl border-2 border-neutral-600 ">
                   <input
                     id="email"
                     name="email"
                     type="text"
                     placeholder="Email"
                     autoComplete="email"
-                    className="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm "
+                    className="w-full p-4 pr-12 font-mono border-neutral-200 rounded-lg shadow-sm "
                   />
                 </div>
               </div>
@@ -69,14 +67,14 @@ function Footer() {
               </label>
 
               <div className="group block relative text-black">
-                <span className="absolute inset-0 bg-gray-600 rounded-xl translate-x-1 translate-y-1"></span>
-                <div className="flex relative h-full bg-white hover:bg-green-50 rounded-xl border-2 border-gray-600 ">
+                <span className="absolute inset-0 bg-neutral-600 rounded-xl translate-x-1 translate-y-1"></span>
+                <div className="flex relative h-full bg-white hover:bg-green-50 rounded-xl border-2 border-neutral-600 ">
                   <textarea
                     id="message"
                     name="message"
                     type="text area"
                     placeholder="Message"
-                    className="w-full p-4 pr-12 text-sm  border-gray-200 rounded-lg shadow-sm "
+                    className="w-full p-4 pr-12 font-mono border-neutral-200 rounded-lg shadow-sm "
                   />
                 </div>
               </div>
@@ -110,7 +108,7 @@ function Footer() {
             </a>
           </nav>
 
-          <div className=" flex justify-center space-x-6 ">
+          <div className=" flex justify-center md:space-x-6 space-x-4">
             <a
               href="https://www.linkedin.com/in/nik-sparlin/"
               className="text-white hover:opacity-75"

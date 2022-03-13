@@ -25,11 +25,11 @@ export default function TopNav() {
           >
             <div className="flex items-end flex-1">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="/" className=" text-gray-800  text-2xl  font-bold">
+                <a href="/" className=" text-neutral-800  text-2xl  font-bold">
                   Nik Sparlin
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className=" rounded-md p-2 inline-flex items-center justify-center text-gray-800 hover:bg-rose-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-rose-600 ">
+                  <Popover.Button className=" rounded-md p-2 inline-flex items-center justify-center text-neutral-800 hover:bg-rose-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-rose-600 ">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-8 w-8" aria-hidden="true" />
                   </Popover.Button>
@@ -40,7 +40,7 @@ export default function TopNav() {
                   <a
                     key={link.name}
                     href={link.href}
-                    className=" font-mono text-md text-gray-800 hover:text-gray-700"
+                    className=" font-mono text-md text-neutral-800 hover:text-neutral-700"
                     target={link.openInNewTab ? "_blank" : undefined}
                     rel={link.openInNewTab ? "noreferrer" : undefined}
                   >
@@ -53,7 +53,7 @@ export default function TopNav() {
             <div className="hidden md:flex justify-center space-x-6 md:order-2">
               <a
                 href="https://www.linkedin.com/in/nik-sparlin/"
-                className="text-gray-700 hover:text-rose-600"
+                className="text-neutral-700 hover:text-rose-600"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,7 +62,7 @@ export default function TopNav() {
               </a>
               <a
                 href="https://public.tableau.com/app/profile/nik.sparlin"
-                className="text-gray-700 hover:text-rose-600 "
+                className="text-neutral-700 hover:text-rose-600 "
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -71,7 +71,7 @@ export default function TopNav() {
               </a>
               <a
                 href="https://www.kaggle.com/niksparlin"
-                className="text-gray-700 hover:text-rose-600"
+                className="text-neutral-700 hover:text-rose-600"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -115,7 +115,7 @@ export default function TopNav() {
                     <a
                       key={link.name}
                       href={link.href}
-                      className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-900 hover:bg-gray-50"
+                      className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-neutral-900 hover:bg-neutral-50"
                       target={link.openInNewTab ? "_blank" : undefined}
                       rel={link.openInNewTab ? "noreferrer" : undefined}
                     >

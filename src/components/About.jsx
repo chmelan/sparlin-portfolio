@@ -80,7 +80,7 @@ function About() {
     >
       <div className="py-16 md:py-32 px-4 w-full max-w-screen-xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16 lg:items-center">
-          <div className="mx-auto max-w-lg lg:mx-0 text-left md:text-center ">
+          <div className="mx-auto max-w-lg md:mx-0 text-left ">
             <h2 className="text-3xl md:text-4xl ">
               There is a{" "}
               <span className="underline decoration-rose-300">magical</span>{" "}
