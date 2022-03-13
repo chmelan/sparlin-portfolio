@@ -7,7 +7,7 @@ import TopNav from "./TopNav";
 
 function App() {
   return (
-    <div className="bg-rose-50 scroll-smooth">
+    <div className="bg-rose-50">
       <TopNav />
       <Hero />
       <Bumper url="bg-[url('src/public/bumper_bars_bg.svg')]" />
