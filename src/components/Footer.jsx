@@ -1,182 +1,187 @@
 function Footer() {
   return (
     <footer className="text-white bg-rose-600" id="contact">
-      <div className="px-4 pt-16 pb-12 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+      <div className="px-4 pt-16 pb-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
         <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-          <div class="max-w-lg mx-auto text-center">
-            <h1 class="text-4xl font-extrabold sm:text-6xl">Get in touch!</h1>
+          <div class="max-w-xl mx-auto md:text-center text-left">
+            <h1 class="text-3xl font-semibold md:text-4xl">
+              Let's work together!
+            </h1>
 
-            <p class="mt-4 text-neutral-200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero
-              nulla eaque error neque ipsa culpa autem, at itaque nostrum!
+            <p class="mt-4 text-neutral-200 font-mono">
+              Interested in collaborating? I'd love to talk more. Feel free to
+              contact me through LinkedIn or the form below, and I'll be in
+              touch shortly.
             </p>
           </div>
 
           <form action="" class="max-w-md mx-auto mt-8 mb-0 space-y-4">
             <div>
-              <label for="email" class="sr-only">
-                Email
+              <label for="text" class="sr-only">
+                Name
               </label>
 
-              <div class="relative">
-                <input
-                  type="email"
-                  class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
-                  placeholder="Enter email"
-                />
-
-                <span class="absolute inset-y-0 inline-flex items-center right-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 h-5 text-gray-400"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                    />
-                  </svg>
-                </span>
+              <div className="group block relative text-black">
+                <span className="absolute inset-0 bg-gray-600 rounded-xl translate-x-1 translate-y-1"></span>
+                <div className="flex relative  space-x-2 h-full bg-white hover:bg-green-50 rounded-xl border-2 border-gray-600 ">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    className="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm "
+                  />
+                </div>
               </div>
             </div>
 
             <div>
-              <label for="password" class="sr-only">
-                Password
+              <label for="email" class="sr-only">
+                Email
               </label>
-              <div class="relative">
-                <input
-                  type="password"
-                  class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
-                  placeholder="Enter password"
-                />
 
-                <span class="absolute inset-y-0 inline-flex items-center right-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 h-5 text-gray-400"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                    />
-                  </svg>
-                </span>
+              <div className="group block relative text-black">
+                <span className="absolute inset-0 bg-gray-600 rounded-xl translate-x-1 translate-y-1"></span>
+                <div className="flex relative  space-x-2 h-full bg-white hover:bg-green-50 rounded-xl border-2 border-gray-600 ">
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    className="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm "
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <label for="message" class="sr-only">
+                Message
+              </label>
+
+              <div className="group block relative text-black">
+                <span className="absolute inset-0 bg-gray-600 rounded-xl translate-x-1 translate-y-1"></span>
+                <div className="flex relative  space-x-2 h-full bg-white hover:bg-green-50 rounded-xl border-2 border-gray-600 ">
+                  <input
+                    type="text area"
+                    placeholder="Name"
+                    className="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm "
+                  />
+                </div>
               </div>
             </div>
 
-            <div class="flex items-center justify-between">
-              <p class="text-sm text-gray-500">
-                No account?
-                <a class="underline" href="">
-                  Sign up
-                </a>
-              </p>
-
+            {/* Submit button ---------------------------------------- */}
+            <div class="flex items-center justify-end">
               <button
+                className="group block relative text-black "
                 type="submit"
-                class="inline-block px-5 py-3 ml-3 text-sm font-medium text-white bg-blue-500 rounded-lg"
               >
-                Sign in
+                <span className="absolute inset-0 bg-emerald-400  rounded-xl translate-x-1 translate-y-1"></span>
+                <div className="flex relative  py-2 px-5 space-x-2 h-full bg-white hover:bg-green-50 rounded-xl border-2 border-emerald-400 transition ease-in-out hover:translate-x-1 hover:translate-y-1	">
+                  <span className="font-semibold">Send a message</span>
+                </div>
               </button>
             </div>
           </form>
         </div>
 
-        <div className="pt-12 mt-32 border-t border-white/25 sm:flex sm:justify-between sm:items-center">
-          <nav className="flex justify-center space-x-4 text-sm font-medium sm:justify-start">
-            <a href="" className="hover:opacity-75">
-              {" "}
-              FAQs{" "}
+        {/* Form test */}
+
+        <form
+          action="#"
+          method="POST"
+          className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+        >
+          <div>
+            <label
+              htmlFor="first-name"
+              className="block text-sm font-medium text-warm-gray-900"
+            >
+              First name
+            </label>
+            <div className="mt-1">
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                autoComplete="given-name"
+                className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-teal-500 focus:border-teal-500 border-warm-gray-300 rounded-md"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-warm-gray-900"
+            >
+              Email
+            </label>
+            <div className="mt-1">
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autoComplete="email"
+                className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-teal-500 focus:border-teal-500 border-warm-gray-300 rounded-md"
+              />
+            </div>
+          </div>
+
+          <div className="sm:col-span-2">
+            <div className="flex justify-between">
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-warm-gray-900"
+              >
+                Message
+              </label>
+              <span id="message-max" className="text-sm text-warm-gray-500">
+                Max. 500 characters
+              </span>
+            </div>
+            <div className="mt-1">
+              <textarea
+                id="message"
+                name="message"
+                rows={4}
+                className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-teal-500 focus:border-teal-500 border border-warm-gray-300 rounded-md"
+                aria-describedby="message-max"
+                defaultValue={""}
+              />
+            </div>
+          </div>
+          <div className="sm:col-span-2 sm:flex sm:justify-end">
+            <button
+              type="submit"
+              className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-500 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 sm:w-auto"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+
+        {/* Additional footer content ------------------------------------------------------------*/}
+        <div className="pt-12 mt-32  sm:flex sm:justify-between sm:items-center">
+          <nav className="flex md:justify-center space-x-4 font-semibold justify-start">
+            <a href="#top" className="hover:opacity-75">
+              Back to top
             </a>
-            <a href="" className="hover:opacity-75">
-              {" "}
-              Contact{" "}
+            <a href="#about" className="hover:opacity-75">
+              About
             </a>
-            <a href="" className="hover:opacity-75">
-              {" "}
-              Returns Policy{" "}
+            <a href="#projects" className="hover:opacity-75">
+              Projects
             </a>
           </nav>
-
-          <div className="flex justify-center mt-6 space-x-6 sm:justify-end sm:mt-0">
+          <p className="font-mono mt-4 pt-2  border-t border-white/25">
+            Made with ♥ by{" "}
             <a
-              className="p-2 rounded-full border border-white/25 hover:opacity-75"
-              href=""
+              href="https://www.nickbuildsthings.dev/"
               target="_blank"
               rel="noreferrer"
+              className="underline"
             >
-              <span className="sr-only"> Facebook </span>
-
-              <svg
-                className="w-4 h-4"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              Nick Chmela
             </a>
-
-            <a
-              className="p-2 rounded-full border border-white/25 hover:opacity-75"
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="sr-only"> Instagram </span>
-
-              <svg
-                className="w-4 h-4"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
-
-            <a
-              className="p-2 rounded-full border border-white/25 hover:opacity-75"
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="sr-only"> Twitter </span>
-
-              <svg
-                className="w-4 h-4"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-              </svg>
-            </a>
-          </div>
+            .
+          </p>
         </div>
       </div>
     </footer>

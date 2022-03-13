@@ -19,7 +19,7 @@ function Hero() {
             illo tenetur fuga ducimus numquam ea!
           </p>
 
-          <div className="flex flex-wrap gap-4 mt-8 text-center">
+          <div className="flex flex-wrap gap-4 mt-8 text-center md:justify-center">
             <Button content="View projects" link="#projects" />
             <SecondaryButton content="More about me" link="#about" />
           </div>
