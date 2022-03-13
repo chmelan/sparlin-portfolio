@@ -1,8 +1,11 @@
+import { FaLinkedinIn, FaKaggle } from "react-icons/fa";
+import { SiTableau } from "react-icons/si";
+
 function Footer() {
   return (
     <footer className="text-white bg-rose-600" id="contact">
-      <div className="px-4 pt-16 pb-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-        <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+      <div className="px-4 pt-8 pb-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+        <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-xl mx-auto md:text-center text-left">
             <h1 className="text-3xl font-semibold md:text-4xl">
               Let's work together!
@@ -80,7 +83,7 @@ function Footer() {
             </div>
 
             {/* Submit button ---------------------------------------- */}
-            <div className="flex items-center justify-end">
+            <div className="flex items-center justify-end ">
               <button
                 className="group block relative text-black "
                 type="submit"
@@ -93,9 +96,8 @@ function Footer() {
             </div>
           </form>
         </div>
-
         {/* Additional footer content ------------------------------------------------------------*/}
-        <div className="pt-12 mt-32  sm:flex sm:justify-between sm:items-center">
+        <div className="flex pt-12  justify-between items-end">
           <nav className="flex md:justify-center space-x-4 font-semibold justify-start">
             <a href="#top" className="hover:opacity-75">
               Back to top
@@ -107,19 +109,58 @@ function Footer() {
               Projects
             </a>
           </nav>
-          <p className="font-mono mt-4 pt-2  border-t border-white/25">
-            Made with ♥ by{" "}
+
+          <div className=" flex justify-center space-x-6 ">
             <a
-              href="https://www.nickbuildsthings.dev/"
+              href="https://www.linkedin.com/in/nik-sparlin/"
+              className="text-white hover:opacity-75"
               target="_blank"
-              rel="noreferrer"
-              className="underline"
+              rel="noopener noreferrer"
             >
-              Nick Chmela
+              <span className="sr-only">LinkedIn</span>
+              <FaLinkedinIn
+                className="h-6 w-6  md:h-10 md:w-10"
+                aria-hidden="true"
+              />
             </a>
-            .
-          </p>
+            <a
+              href="https://public.tableau.com/app/profile/nik.sparlin"
+              className="text-white hover:opacity-75 "
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="sr-only">Tableau</span>
+              <SiTableau
+                className="h-6 w-6  md:h-10 md:w-10"
+                aria-hidden="true"
+              />
+            </a>
+            <a
+              href="https://www.kaggle.com/niksparlin"
+              className="text-white hover:opacity-75"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="sr-only">Kaggle</span>
+              <FaKaggle
+                className="h-6 w-6  md:h-10 md:w-10"
+                aria-hidden="true"
+              />
+            </a>
+          </div>
         </div>
+        <p className=" text-center font-mono mt-4 pt-2  border-t border-white/25">
+          Made with ♥ by{" "}
+          <a
+            href="https://www.nickbuildsthings.dev/"
+            target="_blank"
+            rel="noreferrer"
+            className="underline hover:opacity-75"
+          >
+            Nick Chmela
+          </a>
+          .
+        </p>
       </div>
     </footer>
   );

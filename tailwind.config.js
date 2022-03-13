@@ -1,15 +1,17 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
-  content: ["./index.html", "./src/**/*.jsx"],
-  darkMode: "media", // 'media' or 'class'
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Raleway", ...defaultTheme.fontFamily.sans],
+        mono: ["Quicksand", ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   variants: {
     extend: {},
-    fontFamily: {
-      sans: ["Raleway", "sans-serif"],
-      mono: ["Quicksand", "sans-serif"],
-    },
   },
   plugins: [],
 };
