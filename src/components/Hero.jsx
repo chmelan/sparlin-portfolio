@@ -14,9 +14,9 @@ function Hero() {
             who&apos;s learning to get a little better every day.
           </h1>
 
-          <p className="mt-4 max-w-lg font-mono ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+          <p className="mt-4 max-w-lg font-mono text-neutral-700 text-lg ">
+            I use Python, R, and Tableau to discover the stories hidden within
+            data.
           </p>
 
           <div className="flex flex-wrap gap-4 mt-8 text-center md:justify-center">

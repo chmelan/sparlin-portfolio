@@ -2,13 +2,13 @@ function Footer() {
   return (
     <footer className="text-white bg-rose-600" id="contact">
       <div className="px-4 pt-16 pb-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-        <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-          <div class="max-w-xl mx-auto md:text-center text-left">
-            <h1 class="text-3xl font-semibold md:text-4xl">
+        <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+          <div className="max-w-xl mx-auto md:text-center text-left">
+            <h1 className="text-3xl font-semibold md:text-4xl">
               Let's work together!
             </h1>
 
-            <p class="mt-4 text-neutral-200 font-mono">
+            <p className="mt-4 text-neutral-200 font-mono">
               Interested in collaborating? I'd love to talk more. Feel free to
               contact me through LinkedIn or the form below, and I'll be in
               touch shortly.
@@ -18,11 +18,11 @@ function Footer() {
           <form
             action=""
             method="POST"
-            class="max-w-md mx-auto mt-8 mb-0 space-y-4"
+            className="max-w-md mx-auto mt-8 mb-0 space-y-4"
           >
             <input type="hidden" name="form-name" value="contact" />
             <div>
-              <label htmlFor="name" class="sr-only">
+              <label htmlFor="name" className="sr-only">
                 Name
               </label>
 
@@ -42,7 +42,7 @@ function Footer() {
             </div>
 
             <div>
-              <label htmlFor="email" class="sr-only">
+              <label htmlFor="email" className="sr-only">
                 Email
               </label>
 
@@ -61,7 +61,7 @@ function Footer() {
               </div>
             </div>
             <div>
-              <label htmlFor="message" class="sr-only">
+              <label htmlFor="message" className="sr-only">
                 Message
               </label>
 

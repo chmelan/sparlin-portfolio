@@ -1,7 +1,9 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { FaLinkedinIn, FaGithub, FaRegEnvelope } from "react-icons/fa";
+
+import { FaLinkedinIn, FaKaggle } from "react-icons/fa";
+import { SiTableau } from "react-icons/si";
 
 import resume from "../public/Nik Sparlin Resume.pdf";
 
@@ -55,26 +57,26 @@ export default function TopNav() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="sr-only">Linked In</span>
+                <span className="sr-only">LinkedIn</span>
                 <FaLinkedinIn className="h-6 w-6" aria-hidden="true" />
               </a>
               <a
-                href="https://github.com/chmelan/"
+                href="https://public.tableau.com/app/profile/nik.sparlin"
                 className="text-gray-700 hover:text-rose-600 "
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="sr-only">GitHub</span>
-                <FaGithub className="h-6 w-6" aria-hidden="true" />
+                <span className="sr-only">Tableau</span>
+                <SiTableau className="h-6 w-6" aria-hidden="true" />
               </a>
               <a
-                href="contact"
+                href="https://www.kaggle.com/niksparlin"
                 className="text-gray-700 hover:text-rose-600"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="sr-only">Contact</span>
-                <FaRegEnvelope className="h-6 w-6" aria-hidden="true" />
+                <span className="sr-only">Kaggle</span>
+                <FaKaggle className="h-6 w-6" aria-hidden="true" />
               </a>
             </div>
           </nav>
