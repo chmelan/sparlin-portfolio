@@ -9,11 +9,13 @@ function App() {
   return (
     <div className="bg-rose-50">
       <TopNav />
-      <Hero />
-      <Bumper url="bg-[url('src/public/bumper_bars_bg.svg')]" />
-      <About />
-      <Bumper url="bg-[url('src/public/bumper_bars_bg_reversed.svg')]" />
-      <Projects />
+      <main>
+        <Hero />
+        <Bumper url="bg-[url('src/public/bumper_bars_bg.svg')]" />
+        <About />
+        <Bumper url="bg-[url('src/public/bumper_bars_bg_reversed.svg')]" />
+        <Projects />
+      </main>
       <Footer />
     </div>
   );
