@@ -75,7 +75,7 @@ function About() {
   return (
     // eslint-disable-next-line tailwindcss/no-contradicting-classname
     <section
-      className="flex justify-center items-center min-h-screen text-white  bg-rose-600 bg-[url('src/public/Website_Pattern_High_Quality-01.png')]	"
+      className="flex justify-center items-center min-h-screen text-white  bg-rose-600 bg-[url('src/public/Website_Pattern_Lighter-01.png')]	"
       id="about"
     >
       <div className="py-16 md:py-32 px-4 w-full max-w-screen-xl sm:px-6 lg:px-8">

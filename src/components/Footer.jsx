@@ -37,6 +37,7 @@ function Footer() {
                     placeholder="Name"
                     autoComplete="name"
                     className="w-full p-4 pr-12 font-mono border-neutral-200 rounded-lg shadow-sm "
+                    required
                   />
                 </div>
               </div>
@@ -57,6 +58,7 @@ function Footer() {
                     placeholder="Email"
                     autoComplete="email"
                     className="w-full p-4 pr-12 font-mono border-neutral-200 rounded-lg shadow-sm "
+                    required
                   />
                 </div>
               </div>
@@ -75,6 +77,7 @@ function Footer() {
                     type="text area"
                     placeholder="Message"
                     className="w-full p-4 pr-12 font-mono border-neutral-200 rounded-lg shadow-sm "
+                    required
                   />
                 </div>
               </div>

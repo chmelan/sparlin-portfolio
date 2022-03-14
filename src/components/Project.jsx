@@ -1,5 +1,5 @@
 function Project({ project }) {
-  const { title, description, url } = project;
+  const { title, description, liveURL } = project;
   return (
     <div className="group block relative text-neutral-900 ">
       <span className="absolute inset-0 bg-black  rounded-xl translate-x-1 translate-y-1"></span>
@@ -9,7 +9,7 @@ function Project({ project }) {
         <p className="font-mono text-neutral-700 ">{description}</p>
         <a
           className="text-rose-500 hover:text-rose-300 font-bold  "
-          href={url}
+          href={liveURL}
           rel="_noreferrer"
           target="blank"
         >
