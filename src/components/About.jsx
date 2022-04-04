@@ -10,6 +10,7 @@ import {
   SiTableau,
 } from "react-icons/si";
 import Skills from "./Skills";
+import dillPic from "../public/dill.jpg"
 
 const languageSkills = [
   {
@@ -100,7 +101,7 @@ function About() {
               In my free time (what&apos;s that again?), you can find me
               neck-deep in a book, grumbling my way through the NYTimes daily/
               crossword, slaying beasts with my Dungeons &amp; Dragons party,
-              or, quite honestly, having a good snooze with the <a className="underline hover:text-emerald-100" href="/dill.jpg">best dog to ever
+              or, quite honestly, having a good snooze with the <a className="underline hover:text-emerald-100" href={dillPic}>best dog to ever
               exist.</a>
             </p>
           </div>
