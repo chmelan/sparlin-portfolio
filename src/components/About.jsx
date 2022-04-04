@@ -82,7 +82,7 @@ function About() {
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16 lg:items-center">
           <div className="mx-auto max-w-lg md:mx-0 text-left ">
             <h2 className="text-3xl md:text-4xl ">
-              There is a{" "}
+              There is a{" "}``
               <span className="underline decoration-rose-300">magical</span>{" "}
               place between data and design
             </h2>
@@ -98,10 +98,10 @@ function About() {
             </p>
             <p className="my-4 font-mono text-white ">
               In my free time (what&apos;s that again?), you can find me
-              neck-deep in a book, grumbling my way through the NYTimes daily
+              neck-deep in a book, grumbling my way through the NYTimes daily/
               crossword, slaying beasts with my Dungeons &amp; Dragons party,
-              or, quite honestly, having a good snooze with the best boy to ever
-              exist.
+              or, quite honestly, having a good snooze with the <a className="underline hover:text-emerald-100" href="/dill.jpg">best dog to ever
+              exist.</a>
             </p>
           </div>
           <div>
