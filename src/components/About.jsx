@@ -10,7 +10,7 @@ import {
   SiTableau,
 } from "react-icons/si";
 import Skills from "./Skills";
-import dillPic from "../public/dill.jpg"
+import dillPic from "/src/public/dill.jpg"
 
 const languageSkills = [
   {
